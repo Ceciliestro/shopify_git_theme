@@ -1,0 +1,72 @@
+{
+	"type": "footer",
+	"name": "Footer group",
+	"sections": {
+		"footer": {
+			"type": "footer",
+			"blocks": {
+				"menu-block-1": {
+					"type": "menu",
+					"settings": {
+						"menu_heading": "YAKUSH TABLEWARE",
+						"menu": "footer"
+					}
+				},
+				"menu-block-2": {
+					"type": "menu",
+					"settings": {
+						"menu_heading": "STORE POLICIES",
+						"menu": "footer"
+					}
+				},
+				"menu-block-3": {
+					"type": "menu",
+					"settings": {
+						"menu_heading": "INFORMATION",
+						"menu": "footer"
+					}
+				},
+				"text": {
+					"type": "text",
+					"settings": {
+						"text_content": "<p>Subscribe to our newsletter</p>"
+					}
+				}
+			},
+			"block_order": [
+				"menu-block-1",
+				"menu-block-2",
+				"menu-block-3",
+				"text"
+			],
+			"settings": {
+				"copyright_text": "Copyright © %date%.",
+				"is_show_payment_methods": true,
+				"show_back_to_top_button": true,
+				"is_show_country_selector": true,
+				"is_show_language_selector": true,
+				"section_background": "#cec7b7",
+				"menu_headings_color": "#292929",
+				"text_color": "#514538",
+				"copyright_text_color": "#9d9d9d",
+				"link_color": "#514538",
+				"link_hover_color": "#535353",
+				"button_icon_color_social": "#514538",
+				"button_background_color_social": "rgba(0,0,0,0)",
+				"button_border_color_social": "#514538",
+				"button_icon_color_social_hover": "#ffffff",
+				"button_background_color_social_hover": "#514538",
+				"button_border_color_social_hover": "#514538",
+				"button_top_color": "#000000",
+				"button_top_background": "#ffffff",
+				"button_top_border": "#e9e9e9",
+				"button_top_color_hover": "#ffffff",
+				"button_top_background_hover": "#514538",
+				"button_top_border_hover": "rgba(0,0,0,0)"
+			}
+		}
+	},
+	"order": [
+		"footer"
+	]
+}

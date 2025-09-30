@@ -1,0 +1,132 @@
+{
+	"sections": {
+		"blog": {
+			"type": "blog-template",
+			"blocks": {
+				"article-1": {
+					"type": "article",
+					"settings": {}
+				}
+			},
+			"block_order": [
+				"article-1"
+			],
+			"settings": {
+				"paginate_by": 6,
+				"pagination_type": "pagination",
+				"lazy_load_button_type": "secondary",
+				"show_filter_by_tag": true,
+				"container_width": "inherit",
+				"offset_top_desktop": 16,
+				"offset_bottom_desktop": 80,
+				"offset_top_mobile": 16,
+				"offset_bottom_mobile": 50
+			}
+		},
+		"gallery-carousel": {
+			"type": "gallery-carousel",
+			"blocks": {
+				"carousel-slide-1": {
+					"type": "slide",
+					"settings": {}
+				},
+				"carousel-slide-2": {
+					"type": "slide",
+					"settings": {}
+				},
+				"carousel-slide-3": {
+					"type": "slide",
+					"settings": {}
+				},
+				"carousel-slide-4": {
+					"type": "slide",
+					"settings": {}
+				},
+				"carousel-slide-5": {
+					"type": "slide",
+					"settings": {}
+				}
+			},
+			"block_order": [
+				"carousel-slide-1",
+				"carousel-slide-2",
+				"carousel-slide-3",
+				"carousel-slide-4",
+				"carousel-slide-5"
+			],
+			"settings": {
+				"heading": "@ FOLLOW US ON INSTAGRAM",
+				"enable_arrows": true,
+				"enable_autoplay": true,
+				"autoplay_speed": 5,
+				"offset_top_desktop": 0,
+				"offset_bottom_desktop": 80,
+				"offset_top_mobile": 0,
+				"offset_bottom_mobile": 50
+			}
+		},
+		"events-calendar": {
+			"type": "events-calendar",
+			"blocks": {
+				"event-1": {
+					"type": "event",
+					"settings": {
+						"title": "Glass Fusion",
+						"text": "Discover a sensory journey at our museum exhibition, where a groundbreaking collection seamlessly blends glass artistry with unexpected decor. Witness the interplay of colors and shapes as our exquisite glass pieces harmonize with visionary surroundings, creating an atmosphere of awe.",
+						"location_text": "NYC Fashion week",
+						"time_text": "7.00pm - 11.00 pm",
+						"link_text": "Read more",
+						"link_url": "/",
+						"event_date": "14",
+						"event_date_month": "Jan"
+					}
+				},
+				"event-2": {
+					"type": "event",
+					"settings": {
+						"title": "A Fusion of Elegance and Innovation",
+						"text": "Unveiling a stunning fusion of photomodels and exquisite glass goods. Experience the captivating synergy of beauty and craftsmanship in each frame, where the human form seamlessly complements the timeless allure of glass.",
+						"location_text": "Antwerpen, Expo Center",
+						"time_text": "3.00pm - 8.00 pm",
+						"link_text": "Read more",
+						"link_url": "/",
+						"event_date": "18",
+						"event_date_month": "Feb"
+					}
+				},
+				"event-3": {
+					"type": "event",
+					"settings": {
+						"title": "Under the Open Sky",
+						"text": "Discover the enchantment of an event where craftsmanship meets the open sky. Immerse yourself in the brilliance of our glass treasures, each piece curated to perfection. From stunning glassware to captivating outdoor decor, find the ideal fusion of function and elegance. Join us in the midst of nature, where the refreshing ambiance enhances your enjoyment of these finely crafted wonders, making every moment magical.",
+						"location_text": "Berlin, Main Expo",
+						"time_text": "9.00am - 4.00 pm",
+						"link_text": "Read more",
+						"link_url": "/",
+						"event_date": "20",
+						"event_date_month": "Mar"
+					}
+				}
+			},
+			"block_order": [
+				"event-1",
+				"event-2",
+				"event-3"
+			],
+			"settings": {
+				"title": "Events",
+				"center_blocks_on_desktop": true,
+				"container_width": "inherit",
+				"offset_top_desktop": 0,
+				"offset_bottom_desktop": 80,
+				"offset_top_mobile": 0,
+				"offset_bottom_mobile": 50
+			}
+		}
+	},
+	"order": [
+		"blog",
+		"gallery-carousel",
+		"events-calendar"
+	]
+}
